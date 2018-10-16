@@ -24,4 +24,4 @@ sql = <<-SQL
 
 ActiveRecord::Base.connection.execute(sql)
 
-#require './lib'
+"../artist.rb"
