@@ -24,4 +24,4 @@ sql = <<-SQL
 
 ActiveRecord::Base.connection.execute(sql)
 
-"../artist.rb"
+require_relative "../artist.rb"
