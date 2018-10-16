@@ -23,4 +23,5 @@ sql = <<-SQL
     SQL
 
 ActiveRecord::Base.connection.execute(sql)
+
 #require './lib'
